@@ -1,5 +1,4 @@
 const { MongoClient } = require("mongodb");
-// const url = 'mongodb://localhost:27017'; 
 const url = "mongodb+srv://happiness:password1234@cluster0.69qyx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(url);
 const dbName = 'Students';
